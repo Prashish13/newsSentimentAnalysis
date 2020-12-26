@@ -27,7 +27,9 @@ Flask app was created to scrap news articles and display their sentiment in a we
 <b>Screenshot of application displaying the sentiment of news article is shown below</b>
 <br>
 <b>Application Layout</b>
+
 ![Alt text](flaskapp1.png?raw=true "Optional Title")
+
 <br>
 <b>News article from The Himalayan Times</b>
 ![Alt text](flaskapp2.png?raw=true "Optional Title")
