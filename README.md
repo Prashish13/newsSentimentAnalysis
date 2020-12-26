@@ -26,31 +26,31 @@ Model was trained for 10 epochs and accuracy on test dataset was calculated. The
 Flask app was created to scrap news articles and display their sentiment in a web application.BeautifulSoup was used to scrap the news article from 3 leading English Newspapers of Nepal: The Himalayan Times, The Kathmandu Post, and Republica Nepal. After that, the news article was fed to our learned model, and the sentiment of the news was evaluated. At last, 3 separate HTML table was created for each Newspaper and the news headline with corresponding sentiment label was displayed in the table. Similarly, other additional functionalities to read a news article in detail and visit news article site was added. Each time, the news feed is refreshed, the application will scrape the fresh news article from the websites, fed news articles to model and display their sentiments.<br>
 <h4><b>Screenshot of application displaying the sentiment of news article is shown below:</b></h4>
 
-<u><b>Application Layout:</b></u>
+<b><ins>Application Layout:</ins></b>
 
 ![Alt text](flaskapp1.png?raw=true "Optional Title")
 
 <br>
 
-<b><u>News article from The Himalayan Times:</u></b>
+<b><ins>News article from The Himalayan Times:</ins></b>
 
 ![Alt text](flaskapp2.png?raw=true "Optional Title")
 
 <br>
 
-<b><u>News article from The Kathmandu Post:</u></b>
+<b><ins>News article from The Kathmandu Post:</ins></b>
 
 ![Alt text](flaskapp3.png?raw=true "Optional Title")
 
 <br>
 
-<b><u>News article from The Republica Nepal:</u></b>
+<b><ins>News article from The Republica Nepal:</ins></b>
 
 ![Alt text](flaskapp4.png?raw=true "Optional Title")
 
 <br>
 
-<b><u>Option to read news article in length and vist news article site:</u></b>
+<b><ins>Option to read news article in length and vist news article site:</ins></b>
 
 ![Alt text](flaskapp5.png?raw=true "Optional Title")
 
@@ -67,4 +67,3 @@ The sentiment of public opinion such as movie reviews in IMDB can be construed b
  
  
  
-In GitHub markdown <ins>text</ins>works just fine.
