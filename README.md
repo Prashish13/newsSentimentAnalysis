@@ -59,7 +59,7 @@ Flask app was created to scrap news articles and display their sentiment in a we
 <h3><b>Conclusion</b></h3>
 Since the model was trained with very few news articles, and those news articles were not the best representation of the type of news published in Newspapers of Nepal, so the model was not able to generalize properly. In a later iteration of the project, the model will be trained with the news article based on the context of Nepal to increase the accuracy of sentiment prediction.
 
-<h3><b>Efficacy of </b></h3>
+<h3><b>Limitations</b></h3>
 The sentiment of public opinion such as movie reviews in IMDB can be construed based on the opinion gave by the original poster. But in the context of news, which is informative, it can be construed in both positive and negative ways based on the perception of the reader.
  For eg, in a news titled," US cigarette companies laud tax cut offered by the government", it can be construed in both positive and negative ways. Hence the sentiment of news predicted by the machine learning model cannot be termed as definitive.
  
