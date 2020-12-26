@@ -24,9 +24,9 @@ Model was defined using Embedding Layer,Stacked Bidirectional LSTM(BiLSTM) with 
 Model was trained for 10 epochs and accuracy on test dataset was calculated. The accuracy of model with keras embeeding was 78.75 % while the accuracy of model built using pretrained embedding learned using Word2Vec algorithm was 60%. The tokenizer and model with high accuracy was saved later for Sentiment analysis of English Newspapers printed in Nepal.
 <h3><b>Building Flask APP using Web Scrapping</b></h3>
 Flask app was created to scrap news articles and display their sentiment in a web application.BeautifulSoup was used to scrap the news article from 3 leading English Newspapers of Nepal: The Himalayan Times, The Kathmandu Post, and Republica Nepal. After that, the news article was fed to our learned model, and the sentiment of the news was evaluated. At last, 3 separate HTML table was created for each Newspaper and the news headline with corresponding sentiment label was displayed in the table. Similarly, other additional functionalities to read a news article in detail and visit news article site was added. Each time, the news feed is refreshed, the application will scrape the fresh news article from the websites, fed news articles to model and display their sentiments.<br>
-<b>Screenshot of application displaying the sentiment of news article is shown below</b><br>
+<h4><b>Screenshot of application displaying the sentiment of news article is shown below:</b></h4>
 
-<b><u>Application Layout</u></b>
+<u><b>Application Layout</b></u>
 
 ![Alt text](flaskapp1.png?raw=true "Optional Title")
 
