@@ -67,5 +67,4 @@ The sentiment of public opinion such as movie reviews in IMDB can be construed b
  
  
  
- 
-<p>This is some <u>mispeled</u> text.</p>
+In GitHub markdown <ins>text</ins>works just fine.
