@@ -25,10 +25,22 @@ Model was trained for 10 epochs and accuracy on test dataset was calculated. The
 <h3><b>Building Flask APP using Web Scrapping</b></h3>
 Flask app was created to scrap news articles and display their sentiment in a web application.BeautifulSoup was used to scrap the news article from 3 leading English Newspapers of Nepal: The Himalayan Times, The Kathmandu Post, and Republica Nepal. After that, the news article was fed to our learned model, and the sentiment of the news was evaluated. At last, 3 separate HTML table was created for each Newspaper and the news headline with corresponding sentiment label was displayed in the table. Similarly, other additional functionalities to read a news article in detail and visit news article site was added. Each time, the news feed is refreshed, the application will scrape the fresh news article from the websites, fed news articles to model and display their sentiments.
 <b>Screenshot of application displaying the sentiment of news article is shown below</b>
+<br>
+<b>Application Layout</b>
 ![Alt text](flaskapp1.png?raw=true "Optional Title")
+<br>
+<b>News article from The Himalayan Times</b>
 ![Alt text](flaskapp2.png?raw=true "Optional Title")
+<br>
+<b>News article from The Kathmandu Post</b>
 ![Alt text](flaskapp3.png?raw=true "Optional Title")
+<br>
+<b>News article from The Republica Nepal</b>
 ![Alt text](flaskapp4.png?raw=true "Optional Title")
+<br>
+<b>Option to read news article in length and vist news article site</b>
+![Alt text](flaskapp5.png?raw=true "Optional Title")
+<br>
 <h3><b>Conclusion</b></h3>
 Since the model was trained with very few news articles, and those news articles were not the best representation of the type of news published in Newspapers of Nepal, so the model was not able to generalize properly. In a later iteration of the project, the model will be trained with the news article based on the context of Nepal to increase the accuracy of sentiment prediction.
 
